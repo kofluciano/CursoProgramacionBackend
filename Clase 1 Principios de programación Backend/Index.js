@@ -1,17 +1,34 @@
-alert("holis");
+// Desafio Datos y Variables
+const nombre = "pepe";
+let edad = 25;
+const precio = "$"+99.90;
+const seriesFavoritas=["Darck","Mr Robot","Castlevania"];
 
-console.log("Hola comision 32100!");
+const peliculasFavoritas = {
+      nombre_1:"Guerra mundial z",
+      añoEstreno_1:2013,
+      protagonistas_1:"Brad Pit",
+      nombre_2:"El robo del siglo",
+      añoEstreno_2:2020,
+      protagonistas_2:"Guillermo Franccela",
+      nombre_3:"Star wars",
+      añoEstreno_3:1995,
+      protagonistas_3:"Luck Scariwaquer"
+};
 
-var a = "Hola comision 32100 soy una variable";
+console.log("Nombre:");
+console.log(nombre);
+console.log("Edad:");
+console.log(edad);
+console.log("Precio:");
+console.log(precio);
+console.log("Series Favoritas:");
+console.log("Peliculas favoritas:");
+console.log(seriesFavoritas);
+console.log(peliculasFavoritas);
 
-console.log(a);
-let name = "Pepe";
-let age = 25;
-var precio = "$99,9";
-var series = ("stranger things","casa de papel","digimon");
-console.log("Nombre: "+name)
-console.log("Edad: "+age)
-console.log("Precio: "+precio)
-console.log("Series: "+series)
-console.log(nombre)
-// var pelis = {[peli:"harri potter"; actor1:"Daniel"; actor2:"emma" ] };
+edad= edad+ 1;
+console.log(edad);
+
+const addSerie = seriesFavoritas.push('Stranger Things');
+console.log(seriesFavoritas);
